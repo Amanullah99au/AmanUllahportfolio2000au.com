@@ -1,0 +1,89 @@
+/* Existing styles from before */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+}
+
+header {
+    background: #007bff;
+    color: white;
+    padding: 2rem;
+    text-align: center;
+}
+
+nav a {
+    margin: 0 1rem;
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    padding: 3rem 2rem;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.project {
+    border: 1px solid #ddd;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+    border-radius: 5px;
+    background: #f9f9f9;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 2rem;
+}
+
+blockquote {
+    font-style: italic;
+    border-left: 5px solid #007bff;
+    padding-left: 1rem;
+    margin: 1rem 0;
+}
+
+article {
+    margin: 2rem 0;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 1rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+}
+
+input, textarea {
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+}
+
+button {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 0.5rem;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #f0f0f0;
+    margin-top: 2rem;
+}
+
+@media (max-width: 600px) {
+    nav a { display: block; margin: 0.5rem 0; }
+    section { padding: 2rem 1rem; }
+}
+
+
+
+
+
